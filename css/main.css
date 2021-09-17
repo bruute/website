@@ -1,0 +1,146 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25 px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+
+  }
+  a {
+    color: #e39777;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f9f9f9;
+    color: #1a1a1a;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25 px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+
+  }
+  a {
+    color: #e39777;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+}
+
+/* body {
+  background-color: #7b7b7b;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25 px;
+    color: #FFFFFF;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+} */ 
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h7{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    
+}
+
+
+
+h10{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+/* Paragraph & Typographic */
+
+p {
+    line-height: 30px;
+    margin-bottom: 25px;
+    
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    
+    font-size: 30px;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #61B7A1;
+    text-decoration: none;
+    outline: 1;
+}
+
+
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+
+.w {
+	margin-top: 60px;
+}
+.w i {
+	font-size: 26px;
+	padding: 12px;
+}
+
